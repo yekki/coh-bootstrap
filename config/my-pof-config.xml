@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<pof-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://xmlns.oracle.com/coherence/coherence-pof-config"
+            xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-pof-config http://xmlns.oracle.com/coherence/coherence-pof-config/1.3/coherence-pof-config.xsd">
+
+    <user-type-list>
+        <include>coherence-pof-config.xml</include>
+
+        <user-type>
+            <type-id>1000</type-id>
+            <class-name>com.benstopford.coherence.bootstrap.structures.dataobjects.PofObject</class-name>
+        </user-type>
+        <user-type>
+            <type-id>1001</type-id>
+            <class-name>com.benstopford.coherence.bootstrap.structures.dataobjects.LoggingPofObject</class-name>
+        </user-type>
+        <user-type>
+            <type-id>1002</type-id>
+            <class-name>com.benstopford.coherence.bootstrap.structures.tools.PutAllInvocable</class-name>
+        </user-type>
+        <user-type>
+            <type-id>1003</type-id>
+            <class-name>com.benstopford.coherence.bootstrap.structures.tools.SelfDestructingTrigger</class-name>
+        </user-type>
+        <user-type>
+            <type-id>1004</type-id>
+            <class-name>com.benstopford.coherence.bootstrap.structures.dataobjects.PofByteObject</class-name>
+        </user-type>
+        <user-type>
+            <type-id>1005</type-id>
+            <class-name>com.benstopford.coherence.bootstrap.structures.dataobjects.ByteArrayWrapper</class-name>
+        </user-type>
+    </user-type-list>
+
+    <allow-interfaces>false</allow-interfaces>
+    <allow-subclasses>false</allow-subclasses>
+</pof-config>

@@ -1,0 +1,8 @@
+.DS_Store
+!.gitignore
+/build/**
+/log/**
+/out/**
+/reports/**
+port
+CLUSTER_DATA_LOSS_DETECTED

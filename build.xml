@@ -1,0 +1,65 @@
+<project name="coherence-bootstrap" default="test" basedir=".">
+    <property name="lib.dir" value="lib"/>
+    <property name="src.dir" location="src"/>
+    <property name="build.dir" location="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="build.config.dir" value="${build.dir}/config"/>
+    <property name="jar.dir"     value="${build.dir}/jar"/>
+    <property name="reports.dir"     value="reports"/>
+    <property name="config.dir"     value="config"/>
+
+    <path id="application" location="${jar.dir}/${ant.project.name}.jar"/>
+    <path id="local" location="."/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${classes.dir}"/>
+        <mkdir dir="${build.config.dir}"/>
+        <mkdir dir="${reports.dir}"/>
+    </target>
+
+    <target name="compile" depends="clean, init">
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath" includeantruntime="false" debug="on"/>
+        <copy todir="${classes.dir}/config">
+            <fileset dir="${config.dir}" excludes="**/*.java"/>
+        </copy>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="${reports.dir}"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
+        </jar>
+    </target>
+
+    <target name="test" depends="jar" >
+        <junit printsummary="withOutAndErr" fork="yes" showoutput="true" haltonfailure="true" logfailedtests="on" maxmemory="1g">
+            <jvmarg value="-XX:+UseParallelOldGC"/>
+            <jvmarg value="-javaagent:lib/SizeOf.jar"/>
+            <formatter type="plain" usefile="true"/>
+            <classpath>
+                <path refid="classpath"/>
+                <path refid="application"/>
+                <path refid="local"/>
+            </classpath>
+
+            <batchtest fork="yes" todir="${reports.dir}">
+                <fileset dir="${src.dir}" includes="**/basic/*.java"/>
+                <fileset dir="${src.dir}" includes="**/morecomplex/*.java"/>
+            </batchtest>
+        </junit>
+        <delete>
+            <fileset dir="." includes="junit*.properties"/>
+            <fileset dir="." includes="CLUSTER_DATA_LOSS_DETECTED"/>
+        </delete>
+    </target>
+</project>

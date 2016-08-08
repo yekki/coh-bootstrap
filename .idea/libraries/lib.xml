@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/littlegrid-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/je.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/SizeOf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Oracle/mw12c/coherence/lib/coherence.jar!/" />
+      <root url="jar://$USER_HOME$/Oracle/mw12c/coherence/lib/coherence-jcache.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

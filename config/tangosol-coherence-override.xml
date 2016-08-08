@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coherence
+        xmlns="http://xmlns.oracle.com/coherence/coherence-operational-config"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config http://xmlns.oracle.com/coherence/coherence-operational-config/1.3/coherence-operational-config.xsd">
+    <cluster-config>
+        <multicast-listener>
+            <time-to-live system-property="tangosol.coherence.ttl">1</time-to-live>
+            <join-timeout-milliseconds>3000</join-timeout-milliseconds>
+        </multicast-listener>
+
+        <persistence-environments>
+            <persistence-environment id="myPersistEnv">
+                <persistence-mode>on-demand</persistence-mode>
+                <active-directory>/Users/gniu/Temp/persistence/active</active-directory>
+                <snapshot-directory>/Users/gniu/Temp/persistence/snapshot</snapshot-directory>
+                <trash-directory>/Users/gniu/Temp/persistence/trash</trash-directory>
+            </persistence-environment>
+        </persistence-environments>
+
+        <snapshot-archivers>
+            <directory-archiver id="mySnapshotArchiverEnv">
+                <archive-directory>/Users/gniu/Temp/snapshot-archivers</archive-directory>
+            </directory-archiver>
+        </snapshot-archivers>
+
+        <journaling-config>
+            <flashjournal-manager>
+                <maximum-value-size>64K</maximum-value-size>
+                <maximum-file-size>64M</maximum-file-size>
+                <block-size>512K</block-size>
+                <maximum-pool-size>32M</maximum-pool-size>
+                <directory>data/journalling</directory>
+                <async-limit>32M</async-limit>
+            </flashjournal-manager>
+        </journaling-config>
+    </cluster-config>
+
+    <logging-config>
+        <severity-level system-property="tangosol.coherence.log.level">5</severity-level>
+        <character-limit system-property="tangosol.coherence.log.limit">0</character-limit>
+    </logging-config>
+</coherence>
