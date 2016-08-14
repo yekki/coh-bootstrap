@@ -3,6 +3,7 @@ Coherence Bootstrap
 [![Build Status](https://travis-ci.org/benstopford/coherence-bootstrap.svg?branch=master)](https://travis-ci.org/benstopford/coherence-bootstrap)
 
 **Notice:**
+
 The project is inspired by and based on benstopford's [coherence-bootstrap](https://github.com/benstopford/coherence-bootstrap) which doesn't update for a long time.
 
 Topics covered:

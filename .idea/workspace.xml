@@ -2,144 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49b9c1a6-8a2b-4b77-92df-71ccaf8c1d83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bedrock.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/coherence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ClusterCommon.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace (gniu-pro 的冲突副本 2016-08-05).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/TestUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/dataobjects/SizableObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/dataobjects/SizableObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/ClusterRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/ProcessExecutor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/ProcessLogger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/TestCommon.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/AggregatorsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CQCsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CacheStoreAsyncTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CacheStoreSynchronousTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/DoRemoteWorkWithInvocablesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/EntryProcessorsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/ExtendProxiesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/FilterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/IndexesAreFastTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/MapListenersTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/NearCachingTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/POFTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/ParitionListenerForDataLossTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/PutAndGetTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/TriggersTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/CustomIndexExampleTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/HopBetweenCachesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/ListenersCanLoseDataTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/MembershipListenersTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/MultiThreadedExtendClientExampleTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PofEfficiencyTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PofInternalsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PutAllThatReportsIndividualExceptionsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PutBackupsOnDiskUsingElasticDataTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PutDataOnDiskUsingElasticDataTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExampleTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachinesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/sizing/CountBinarySizeOfAllObjectsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/sizing/GarbageCollectWholeClusterTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Aggregators.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Aggregators.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CQCs.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/CQCs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CacheStoreAsync.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/CacheStoreAsync.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CacheStoreSynchronous.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/CacheStoreSynchronous.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/DoRemoteWorkWithInvocables.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/DoRemoteWorkWithInvocables.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/EntryProcessors.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/EntryProcessors.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/ExtendProxies.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/ExtendProxies.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Filters.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Filters.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/IndexesAreFast.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/IndexesAreFast.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/MapListeners.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/MapListeners.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/NearCaching.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/NearCaching.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/POF.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/POF.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/ParitionListenerForDataLoss.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/ParitionListenerForDataLoss.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/PutAndGet.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/PutAndGet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Triggers.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Triggers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/CustomIndexExample.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/CustomIndexExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/HopBetweenCaches.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/HopBetweenCaches.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociation.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/ListenersCanLoseData.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/ListenersCanLoseData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/MembershipListeners.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/MembershipListeners.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/MultiThreadedExtendClientExample.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/MultiThreadedExtendClientExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PofEfficiency.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PofEfficiency.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PofInternals.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PofInternals.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PutAllThatReportsIndividualExceptions.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PutAllThatReportsIndividualExceptions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PutBackupsOnDiskUsingElasticData.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PutBackupsOnDiskUsingElasticData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PutDataOnDiskUsingElasticData.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PutDataOnDiskUsingElasticData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExample.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachines.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachines.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/recoverablecaching/Bdb.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/recoverablecaching/Bdb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/recoverablecaching/CoherenceNoSqlDb.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/recoverablecaching/CoherenceNoSqlDb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/CountBinarySizeOfAllObjects.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/CountBinarySizeOfAllObjects.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/GarbageCollectWholeCluster.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/GarbageCollectWholeCluster.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/AccurateIndexSixingWithSizeOfLib.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/AccurateIndexSixingWithSizeOfLib.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/ShowInstrumentationInvocableIsAccurate.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/ShowInstrumentationInvocableIsAccurate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/coherencembean/ShowCoherenceMbeanIsNotAccurate.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/coherencembean/ShowCoherenceMbeanIsNotAccurate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/coherencembean/SumCoherenceIndexMbean.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/coherencembean/SumCoherenceIndexMbean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/ElasticDataPerformance.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/ElasticDataPerformance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/ElasticDataWithRecoverableCachingPerf.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/ElasticDataWithRecoverableCachingPerf.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/hardware/DiskBaseline.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/hardware/DiskBaseline.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/hardware/RAMBaseline.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/hardware/RAMBaseline.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/ByteArrayWrapper.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/ByteArrayWrapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/LengthyPofObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/LengthyPofObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/LoggingPofObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/LoggingPofObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/ObjFactory.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/ObjFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/PoJo.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/PoJo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/PofByteObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/PofByteObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/PofObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/PofObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/SizableObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/SizableObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/SizableObjectFactory.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/SizableObjectFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/Trade.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/Trade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/PerformanceTimer.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/PerformanceTimer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ClusterRunner.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ClusterRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/PersistentPortTracker.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/PersistentPortTracker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ProcessExecutor.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ProcessExecutor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ProcessLogger.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ProcessLogger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/FailingCacheStore.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/FailingCacheStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/FakeDatabaseCacheStore.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/FakeDatabaseCacheStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/MyCustomIndex.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/MyCustomIndex.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/MyPartitionListener.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/MyPartitionListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/MyPofContext.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/MyPofContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/ParallelSumAggregator.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/ParallelSumAggregator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/PutAllInvocable.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/PutAllInvocable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/PutAllWithErrorReporting.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/PutAllWithErrorReporting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SampleInvocable.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SampleInvocable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SelfDestructingTrigger.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SelfDestructingTrigger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SleepingProcessor.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SleepingProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/StandaloneClusterConnection.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/StandaloneClusterConnection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/StandaloneClusterStarter.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/StandaloneClusterStarter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SumAggregator.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SumAggregator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/TestCacheStore.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/TestCacheStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/TriggerFactory.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/TriggerFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/index/IndexSizeJMXBean.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizeJMXBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/index/IndexSizer.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/index/IndexSizerMBean.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizerMBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/index/IndexSizingInvocable.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizingInvocable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/jmx/BinaryCacheSizeCounter.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/jmx/BinaryCacheSizeCounter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/jmx/ClusterGC.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/jmx/ClusterGC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/jmx/IndexInfoCounter.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/jmx/IndexInfoCounter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/util/GcInformation.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/util/GcInformation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/util/HeapUtils.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/util/HeapUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coherence-bootstrap.iml" afterPath="$PROJECT_DIR$/coherence-bootstrap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/async-cachestore.xml" afterPath="$PROJECT_DIR$/config/async-cachestore.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/basic-cache-with-a-partition-listener-local-storage-true.xml" afterPath="$PROJECT_DIR$/config/basic-cache-with-a-partition-listener-local-storage-true.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/basic-cache-with-local-storage-false.xml" afterPath="$PROJECT_DIR$/config/basic-cache-with-local-storage-false.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/basic-invocation-service-pof-1.xml" afterPath="$PROJECT_DIR$/config/basic-invocation-service-pof-1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/my-pof-config.xml" afterPath="$PROJECT_DIR$/config/my-pof-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/synch-cachestore.xml" afterPath="$PROJECT_DIR$/config/synch-cachestore.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/tangosol-coherence-override.xml" afterPath="$PROJECT_DIR$/config/tangosol-coherence-override.xml" />
     </list>
     <ignored path="coherence-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Aggregators.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Aggregators.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Aggregators.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
@@ -173,15 +36,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="660">
-                <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -715,7 +578,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="896" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -723,7 +586,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21387696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1074,14 +937,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Aggregators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="660">
-            <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1091,16 +964,6 @@
         <state relative-caret-position="120">
           <caret line="8" column="123" selection-start-line="8" selection-start-column="123" selection-end-line="8" selection-end-column="123" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Aggregators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
