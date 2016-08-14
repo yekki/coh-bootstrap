@@ -1,7 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57116240-9be7-4e73-bcfe-f1ddb903ee57" name="Default" comment="" />
+    <list default="true" id="49b9c1a6-8a2b-4b77-92df-71ccaf8c1d83" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bedrock.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/coherence.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ClusterCommon.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace (gniu-pro 的冲突副本 2016-08-05).xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/TestUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/dataobjects/SizableObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/dataobjects/SizableObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/ClusterRunner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/ProcessExecutor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/ProcessLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/TestCommon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/AggregatorsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CQCsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CacheStoreAsyncTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CacheStoreSynchronousTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/DoRemoteWorkWithInvocablesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/EntryProcessorsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/ExtendProxiesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/FilterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/IndexesAreFastTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/MapListenersTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/NearCachingTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/POFTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/ParitionListenerForDataLossTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/PutAndGetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/TriggersTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/CustomIndexExampleTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/HopBetweenCachesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/ListenersCanLoseDataTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/MembershipListenersTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/MultiThreadedExtendClientExampleTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PofEfficiencyTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PofInternalsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PutAllThatReportsIndividualExceptionsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PutBackupsOnDiskUsingElasticDataTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PutDataOnDiskUsingElasticDataTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExampleTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachinesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/sizing/CountBinarySizeOfAllObjectsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/sizing/GarbageCollectWholeClusterTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Aggregators.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Aggregators.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CQCs.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/CQCs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CacheStoreAsync.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/CacheStoreAsync.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CacheStoreSynchronous.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/CacheStoreSynchronous.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/DoRemoteWorkWithInvocables.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/DoRemoteWorkWithInvocables.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/EntryProcessors.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/EntryProcessors.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/ExtendProxies.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/ExtendProxies.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Filters.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Filters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/IndexesAreFast.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/IndexesAreFast.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/MapListeners.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/MapListeners.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/NearCaching.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/NearCaching.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/POF.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/POF.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/ParitionListenerForDataLoss.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/ParitionListenerForDataLoss.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/PutAndGet.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/PutAndGet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Triggers.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Triggers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/CustomIndexExample.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/CustomIndexExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/HopBetweenCaches.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/HopBetweenCaches.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociation.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/ListenersCanLoseData.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/ListenersCanLoseData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/MembershipListeners.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/MembershipListeners.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/MultiThreadedExtendClientExample.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/MultiThreadedExtendClientExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PofEfficiency.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PofEfficiency.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PofInternals.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PofInternals.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PutAllThatReportsIndividualExceptions.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PutAllThatReportsIndividualExceptions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PutBackupsOnDiskUsingElasticData.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PutBackupsOnDiskUsingElasticData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PutDataOnDiskUsingElasticData.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/PutDataOnDiskUsingElasticData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExample.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachines.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachines.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/recoverablecaching/Bdb.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/recoverablecaching/Bdb.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/recoverablecaching/CoherenceNoSqlDb.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/recoverablecaching/CoherenceNoSqlDb.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/CountBinarySizeOfAllObjects.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/CountBinarySizeOfAllObjects.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/GarbageCollectWholeCluster.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/GarbageCollectWholeCluster.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/AccurateIndexSixingWithSizeOfLib.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/AccurateIndexSixingWithSizeOfLib.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/ShowInstrumentationInvocableIsAccurate.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/ShowInstrumentationInvocableIsAccurate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/coherencembean/ShowCoherenceMbeanIsNotAccurate.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/coherencembean/ShowCoherenceMbeanIsNotAccurate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/coherencembean/SumCoherenceIndexMbean.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/coherencembean/SumCoherenceIndexMbean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/ElasticDataPerformance.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/ElasticDataPerformance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/ElasticDataWithRecoverableCachingPerf.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/ElasticDataWithRecoverableCachingPerf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/hardware/DiskBaseline.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/hardware/DiskBaseline.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/hardware/RAMBaseline.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/hardware/RAMBaseline.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/ByteArrayWrapper.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/ByteArrayWrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/LengthyPofObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/LengthyPofObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/LoggingPofObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/LoggingPofObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/ObjFactory.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/ObjFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/PoJo.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/PoJo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/PofByteObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/PofByteObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/PofObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/PofObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/SizableObject.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/SizableObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/SizableObjectFactory.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/SizableObjectFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/dataobjects/Trade.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/Trade.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/PerformanceTimer.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/PerformanceTimer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ClusterRunner.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ClusterRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/PersistentPortTracker.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/PersistentPortTracker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ProcessExecutor.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ProcessExecutor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ProcessLogger.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ProcessLogger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/FailingCacheStore.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/FailingCacheStore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/FakeDatabaseCacheStore.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/FakeDatabaseCacheStore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/MyCustomIndex.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/MyCustomIndex.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/MyPartitionListener.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/MyPartitionListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/MyPofContext.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/MyPofContext.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/ParallelSumAggregator.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/ParallelSumAggregator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/PutAllInvocable.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/PutAllInvocable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/PutAllWithErrorReporting.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/PutAllWithErrorReporting.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SampleInvocable.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SampleInvocable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SelfDestructingTrigger.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SelfDestructingTrigger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SleepingProcessor.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SleepingProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/StandaloneClusterConnection.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/StandaloneClusterConnection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/StandaloneClusterStarter.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/StandaloneClusterStarter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SumAggregator.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SumAggregator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/TestCacheStore.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/TestCacheStore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/TriggerFactory.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/TriggerFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/index/IndexSizeJMXBean.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizeJMXBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/index/IndexSizer.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/index/IndexSizerMBean.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizerMBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/index/IndexSizingInvocable.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizingInvocable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/jmx/BinaryCacheSizeCounter.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/jmx/BinaryCacheSizeCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/jmx/ClusterGC.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/jmx/ClusterGC.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/jmx/IndexInfoCounter.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/jmx/IndexInfoCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/util/GcInformation.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/util/GcInformation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/util/HeapUtils.java" afterPath="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/util/HeapUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coherence-bootstrap.iml" afterPath="$PROJECT_DIR$/coherence-bootstrap.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/async-cachestore.xml" afterPath="$PROJECT_DIR$/config/async-cachestore.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/basic-cache-with-a-partition-listener-local-storage-true.xml" afterPath="$PROJECT_DIR$/config/basic-cache-with-a-partition-listener-local-storage-true.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/basic-cache-with-local-storage-false.xml" afterPath="$PROJECT_DIR$/config/basic-cache-with-local-storage-false.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/basic-invocation-service-pof-1.xml" afterPath="$PROJECT_DIR$/config/basic-invocation-service-pof-1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/my-pof-config.xml" afterPath="$PROJECT_DIR$/config/my-pof-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/synch-cachestore.xml" afterPath="$PROJECT_DIR$/config/synch-cachestore.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/tangosol-coherence-override.xml" afterPath="$PROJECT_DIR$/config/tangosol-coherence-override.xml" />
+    </list>
     <ignored path="coherence-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,25 +155,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="coherence-bootstrap" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CQCsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CQCsTest.java">
+      <file leaf-file-name="Aggregators.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Aggregators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="287">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,26 +173,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoRemoteWorkWithInvocablesTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/DoRemoteWorkWithInvocablesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JUnitMatchers.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/matchers/JUnitMatchers.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-              </folding>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="660">
+                <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -75,6 +198,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -83,57 +209,40 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/extend-client-32001.xml" />
-        <option value="$PROJECT_DIR$/config/extend-client-32001-pof.xml" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ProcessExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/POF.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/hardware/RAMBaseline.java" />
         <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/hardware/DiskBaseline.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/SelfDestructingTrigger.java" />
-        <option value="$PROJECT_DIR$/config/basic-invocation-service-pof-1.xml" />
-        <option value="$PROJECT_DIR$/config/basic-cache-with-local-storage-false.xml" />
-        <option value="$PROJECT_DIR$/config/basic-cache-with-a-partition-listener-local-storage-true.xml" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/tools/ParallelSumAggregator.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/IndexesAreFastTest.java" />
-        <option value="$PROJECT_DIR$/config/basic-cache-with-pof.xml" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/CountBinarySizeOfAllObjects.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/sizing/CountBinarySizeOfAllObjectsTest.java" />
-        <option value="$PROJECT_DIR$/config/basic-extend-enabled-cache-32001.xml" />
-        <option value="$PROJECT_DIR$/config/basic-cache.xml" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ClusterRunner.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/ExtendProxiesTest.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CQCs.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Aggregators.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/ParitionListenerForDataLoss.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PutAllThatReportsIndividualExceptionsTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/HopBetweenCachesTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/PutAndGetTest.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/ExtendProxies.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExample.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/MapListenersTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/NearCachingTest.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/NearCaching.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/TriggersTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/FilterTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/ParitionListenerForDataLossTest.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/MapListeners.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/ShowInstrumentationInvocableIsAccurate.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/POFTest.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachines.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/EntryProcessorsTest.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Triggers.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/AggregatorsTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CacheStoreSynchronousTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExampleTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/ListenersCanLoseDataTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachinesTest.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/ListenersCanLoseData.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/PutAndGet.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/MembershipListeners.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CacheStoreSynchronous.java" />
+        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PofEfficiencyTest.java" />
+        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/MembershipListenersTest.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/CustomIndexExample.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PofEfficiency.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Filters.java" />
+        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/CustomIndexExampleTest.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/DoRemoteWorkWithInvocables.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ProcessExecutor.java" />
+        <option value="$PROJECT_DIR$/src/me/yekki/coherence/sandbox/Test1.java" />
+        <option value="$PROJECT_DIR$/config/tangosol-coherence-override.xml" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/TestCommon.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ProcessLogger.java" />
         <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/EntryProcessors.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/coherencembean/ShowCoherenceMbeanIsNotAccurate.java" />
-        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PutAllThatReportsIndividualExceptions.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CQCsTest.java" />
-        <option value="$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/DoRemoteWorkWithInvocablesTest.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/IndexesAreFast.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/PutAndGet.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/HopBetweenCaches.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociation.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ClusterRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/CountBinarySizeOfAllObjects.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/GarbageCollectWholeCluster.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/coherencembean/SumCoherenceIndexMbean.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Aggregators.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/ElasticDataWithRecoverableCachingPerf.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/performance/ElasticDataPerformance.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/MapListeners.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/NearCaching.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/AccurateIndexSixingWithSizeOfLib.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/ListenersCanLoseData.java" />
+        <option value="$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ClusterCommon.java" />
+        <option value="$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Aggregators.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -143,16 +252,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/Oracle/mw12c/oracle_common/modules/org.apache.maven_3.2.5" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1680" />
-    <option name="height" value="1046" />
+    <option name="width" value="1440" />
+    <option name="height" value="896" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -161,7 +263,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -179,7 +281,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,199 +314,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cluster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morecomplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morecomplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sizing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,56 +337,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherence-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.41666666" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Oracle/mw12c/coherence/lib/coherence-jcache.jar!/" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.DoRemoteWorkWithInvocablesTest">
-    <configuration default="false" name="FilterTest.shouldFilterResultsUsingTwoLevelPofExtractor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Aggregators (1)">
+    <configuration default="false" name="PutAndGetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="me.yekki.coherence.testing.tests.basic.*" />
@@ -487,33 +369,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="me.yekki.coherence.testing.tests.basic" />
-      <option name="MAIN_CLASS_NAME" value="me.yekki.coherence.testing.tests.basic.FilterTest" />
-      <option name="METHOD_NAME" value="shouldFilterResultsUsingTwoLevelPofExtractor" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExtendProxiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="me.yekki.coherence.testing.tests.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="coherence-bootstrap" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="me.yekki.coherence.testing.tests.basic" />
-      <option name="MAIN_CLASS_NAME" value="me.yekki.coherence.testing.tests.basic.ExtendProxiesTest" />
+      <option name="MAIN_CLASS_NAME" value="me.yekki.coherence.testing.tests.basic.PutAndGetTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -528,18 +384,13 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="EntryProcessorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="me.yekki.coherence.testing.tests.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="coherence-bootstrap" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="me.yekki.coherence.testing.tests.basic" />
-      <option name="MAIN_CLASS_NAME" value="me.yekki.coherence.testing.tests.basic.EntryProcessorsTest" />
+      <option name="PACKAGE_NAME" value="me.yekki.coherence.sandbox" />
+      <option name="MAIN_CLASS_NAME" value="me.yekki.coherence.sandbox.Test1" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -554,116 +405,68 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CQCsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="me.yekki.coherence.testing.tests.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="All in coherence-bootstrap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="coherence-bootstrap" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="me.yekki.coherence.testing.tests.basic" />
-      <option name="MAIN_CLASS_NAME" value="me.yekki.coherence.testing.tests.basic.CQCsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DoRemoteWorkWithInvocablesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="me.yekki.coherence.testing.tests.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="coherence-bootstrap" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="me.yekki.coherence.testing.tests.basic" />
-      <option name="MAIN_CLASS_NAME" value="me.yekki.coherence.testing.tests.basic.DoRemoteWorkWithInvocablesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aggregators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="coherence-bootstrap" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.benstopford.coherence.bootstrap.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.benstopford.coherence.bootstrap.basic.Aggregators" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aggregators (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="coherence-bootstrap" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="me.yekki.coh.bootstrap.basic" />
+      <option name="MAIN_CLASS_NAME" value="me.yekki.coh.bootstrap.basic.Aggregators" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -688,48 +491,15 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -795,76 +565,12 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="coherence-bootstrap" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -923,6 +629,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -939,131 +658,86 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FilterTest.shouldFilterResultsUsingTwoLevelPofExtractor" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExtendProxiesTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EntryProcessorsTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CQCsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DoRemoteWorkWithInvocablesTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PutAndGetTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in coherence-bootstrap" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Aggregators" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Aggregators (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DoRemoteWorkWithInvocablesTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CQCsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExtendProxiesTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EntryProcessorsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FilterTest.shouldFilterResultsUsingTwoLevelPofExtractor" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Aggregators (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Aggregators" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in coherence-bootstrap" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PutAndGetTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="57116240-9be7-4e73-bcfe-f1ddb903ee57" name="Default" comment="" />
-      <created>1470303621873</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1470303621873</updated>
-      <workItem from="1470303625666" duration="9418000" />
-      <workItem from="1470360522221" duration="7004000" />
-      <workItem from="1470378912935" duration="203000" />
-      <workItem from="1470380739055" duration="6782000" />
-      <workItem from="1470396681727" duration="39400000" />
-    </task>
-    <servers />
-  </component>
   <component name="TestHistory">
-    <history-entry file="CQCsTest - 2016.08.07 at 23h 15m 40s.xml">
-      <configuration name="CQCsTest" configurationId="JUnit" />
+    <history-entry file="Aggregators - 2016.08.14 at 22h 35m 04s.xml">
+      <configuration name="Aggregators" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CQCsTest - 2016.08.07 at 23h 17m 00s.xml">
-      <configuration name="CQCsTest" configurationId="JUnit" />
+    <history-entry file="Aggregators_(1) - 2016.08.14 at 22h 37m 16s.xml">
+      <configuration name="Aggregators (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoRemoteWorkWithInvocablesTest - 2016.08.07 at 23h 34m 52s.xml">
-      <configuration name="DoRemoteWorkWithInvocablesTest" configurationId="JUnit" />
+    <history-entry file="Aggregators_(1) - 2016.08.14 at 22h 38m 59s.xml">
+      <configuration name="Aggregators (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoRemoteWorkWithInvocablesTest - 2016.08.07 at 23h 35m 36s.xml">
-      <configuration name="DoRemoteWorkWithInvocablesTest" configurationId="JUnit" />
+    <history-entry file="Aggregators_(1) - 2016.08.14 at 22h 55m 48s.xml">
+      <configuration name="Aggregators (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExtendProxiesTest - 2016.08.07 at 22h 18m 52s.xml">
-      <configuration name="ExtendProxiesTest" configurationId="JUnit" />
+    <history-entry file="All_in_coherence-bootstrap - 2016.08.09 at 21h 05m 52s.xml">
+      <configuration name="All in coherence-bootstrap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExtendProxiesTest - 2016.08.07 at 22h 22m 01s.xml">
-      <configuration name="ExtendProxiesTest" configurationId="JUnit" />
+    <history-entry file="PutAndGetTest - 2016.08.08 at 17h 56m 18s.xml">
+      <configuration name="PutAndGetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExtendProxiesTest - 2016.08.07 at 22h 24m 36s.xml">
-      <configuration name="ExtendProxiesTest" configurationId="JUnit" />
+    <history-entry file="PutAndGetTest - 2016.08.08 at 18h 02m 02s.xml">
+      <configuration name="PutAndGetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExtendProxiesTest - 2016.08.07 at 23h 02m 11s.xml">
-      <configuration name="ExtendProxiesTest" configurationId="JUnit" />
+    <history-entry file="Test1 - 2016.08.09 at 10h 31m 27s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExtendProxiesTest - 2016.08.07 at 23h 04m 33s.xml">
-      <configuration name="ExtendProxiesTest" configurationId="JUnit" />
+    <history-entry file="Test1 - 2016.08.09 at 10h 34m 23s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExtendProxiesTest - 2016.08.07 at 23h 08m 49s.xml">
-      <configuration name="ExtendProxiesTest" configurationId="JUnit" />
+    <history-entry file="Test1 - 2016.08.09 at 10h 36m 40s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
     </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62807000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1046" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="896" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32724902" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3532495" sideWeight="0.49702382" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26528117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21387696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10391198" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1078,465 +752,355 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/hamcrest/core/Is.class</url>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-    <buildFile url="file://$PROJECT_DIR$/build.xml">
-      <targetFilters>
-        <filter targetName="init" isVisible="false" />
-        <filter targetName="compile" isVisible="false" />
-        <filter targetName="clean" isVisible="false" />
-        <filter targetName="jar" isVisible="false" />
-        <filter targetName="test" isVisible="false" />
-      </targetFilters>
-      <expanded value="true" />
-    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/basic-cache-with-pof.xml">
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/LoggingPofObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="315">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/bedrock/bedrock-testing-support-4.1.0-SNAPSHOT.jar!/com/oracle/bedrock/junit/AbstractTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/bedrock/bedrock-runtime-4.1.0-SNAPSHOT.jar!/com/oracle/bedrock/runtime/LocalPlatform.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/bedrock/coherence-12.2.1-4.0.0.jar!/com/oracle/bedrock/runtime/coherence/CoherenceClusterMember.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/bedrock/bedrock-core-4.1.0-SNAPSHOT.jar!/com/oracle/bedrock/OptionsByType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/bedrock/bedrock-runtime-4.1.0-SNAPSHOT.jar!/com/oracle/bedrock/runtime/Platform.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/sandbox/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/PofObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/PofByteObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/dataobjects/ObjFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/index/IndexSizeJMXBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/TriggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/TestCacheStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SumAggregator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/StandaloneClusterStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/StandaloneClusterConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SleepingProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SelfDestructingTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/tools/SampleInvocable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Oracle/coh3715/lib/coherence.jar!/com/tangosol/coherence/component/util/daemon/queueProcessor/service/grid/PartitionedService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="947" column="29" selection-start-line="947" selection-start-column="15" selection-end-line="947" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/PerformanceTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Filters.java">
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/dataobjects/SizableObjectFactory.java" />
+    <entry file="file://$PROJECT_DIR$/config/tangosol-coherence-override.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/function/IntConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/basic-cache.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/ExtendProxiesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/ClusterRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/framework/cluster/TestCommon.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/TestCommon.java" />
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ProcessLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/extend-client-32001-pof.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/extend-client-32002.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Aggregators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/ParitionListenerForDataLoss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/ExtendProxies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/MapListenersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/NearCachingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/IndexesAreFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CacheStoreAsyncTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/PutAndGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/NearCaching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/TriggersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/FilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/ParitionListenerForDataLossTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/MapListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/ShowInstrumentationInvocableIsAccurate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2986">
-          <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/POFTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/EntryProcessorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/Triggers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/AggregatorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CacheStoreSynchronousTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/ListenersCanLoseDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#1285#1293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/UsingServicesToIsolateWorkOnDifferentSetsOfMachinesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/ListenersCanLoseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/PutAndGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/MembershipListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/UsingAnOverflowCacheToExpireEntriesToDiskExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/sizing/index/coherencembean/ShowCoherenceMbeanIsNotAccurate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/PutAllThatReportsIndividualExceptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="64" column="60" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/DoRemoteWorkWithInvocables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CacheStoreSynchronous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/EntryProcessors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/morecomplex/HopBetweenCachesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/morecomplex/PutAllThatReportsIndividualExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Oracle/mw12c/coherence/lib/coherence.jar!/com/tangosol/net/cache/ContinuousQueryCache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/basic-extend-enabled-cache-32001.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/basic/CQCs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/extend-client-32001.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/basic-extend-enabled-cache-32001.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/EntryProcessors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/IndexesAreFast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/PutAndGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/HopBetweenCaches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/JoinTwoCachesUsingBackingMapAccessAndKeyAssociation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1199">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/hardware/DiskBaseline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/CountBinarySizeOfAllObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ClusterRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="125" column="47" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/GarbageCollectWholeCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/coherencembean/SumCoherenceIndexMbean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/ElasticDataPerformance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="138" column="43" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/PersistentPortTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/MapListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/NearCaching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/sizing/index/AccurateIndexSixingWithSizeOfLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="259" column="5" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/morecomplex/ListenersCanLoseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ClusterCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/structures/framework/cluster/ProcessExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/performance/ElasticDataWithRecoverableCachingPerf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="660">
+            <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="123" selection-start-line="8" selection-start-column="123" selection-end-line="8" selection-end-column="123" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/CQCsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/me/yekki/coh/bootstrap/basic/Aggregators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="59" />
+        <state relative-caret-position="287">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/benstopford/coherence/bootstrap/structures/framework/cluster/ClusterRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="270" column="19" selection-start-line="270" selection-start-column="19" selection-end-line="270" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/matchers/JUnitMatchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/yekki/coherence/testing/tests/basic/DoRemoteWorkWithInvocablesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1561,7 +1125,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.62068963" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1572,7 +1136,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.62068963" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1584,7 +1148,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.41666666" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1617,11 +1181,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>coherence</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.41666666" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

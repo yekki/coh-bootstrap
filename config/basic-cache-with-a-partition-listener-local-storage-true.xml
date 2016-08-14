@@ -14,7 +14,7 @@
             <service-name>replicated-partitioned-with-listener</service-name>
             <backup-count>0</backup-count>
             <partition-listener>
-                <class-name>com.benstopford.coherence.bootstrap.structures.tools.MyPartitionListener</class-name>
+                <class-name>me.yekki.coh.bootstrap.structures.tools.MyPartitionListener</class-name>
             </partition-listener>
             <backing-map-scheme>
                 <local-scheme/>

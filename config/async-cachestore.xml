@@ -22,7 +22,7 @@
                     <cachestore-scheme>
                         <class-scheme>
                             <class-name>
-                                com.benstopford.coherence.bootstrap.structures.tools.FakeDatabaseCacheStore
+                                me.yekki.coh.bootstrap.structures.tools.FakeDatabaseCacheStore
                             </class-name>
                         </class-scheme>
                     </cachestore-scheme>

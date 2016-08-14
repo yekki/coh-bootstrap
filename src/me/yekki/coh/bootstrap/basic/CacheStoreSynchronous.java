@@ -1,0 +1,36 @@
+package me.yekki.coh.bootstrap.basic;
+
+import me.yekki.coh.bootstrap.structures.tools.TestCacheStore;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
+import com.tangosol.net.NamedCache;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
+
+/**
+ * BTS, 07-Dec-2007
+ */
+public class CacheStoreSynchronous extends ClusterRunner {
+
+    @Test
+    public void cacheStore() {
+
+        NamedCache cache = getCache("config/synch-cachestore.xml", "foo");
+
+        cache.put("Key1", "Value");
+
+        assertTrue(TestCacheStore.WAS_CALLED);
+    }
+
+    @Before
+    public void setUp() throws Exception {
+        super.setUp();
+    }
+
+    @After
+    public void tearDown() throws Exception {
+        super.tearDown();
+    }
+}

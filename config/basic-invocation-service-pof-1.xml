@@ -42,7 +42,7 @@
             <listener>
                 <class-scheme>
                     <!--ClassScheme:instance-->
-                    <class-factory-name>com.benstopford.coherence.bootstrap.structures.tools.TriggerFactory</class-factory-name>
+                    <class-factory-name>me.yekki.coh.bootstrap.structures.tools.TriggerFactory</class-factory-name>
                     <method-name>createTriggerListener</method-name>
                     <init-params>
                         <init-param>
