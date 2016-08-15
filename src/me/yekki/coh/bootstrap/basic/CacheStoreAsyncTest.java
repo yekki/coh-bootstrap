@@ -1,10 +1,8 @@
 package me.yekki.coh.bootstrap.basic;
 
+import com.tangosol.net.NamedCache;
 import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import me.yekki.coh.bootstrap.structures.tools.FakeDatabaseCacheStore;
-import com.tangosol.net.NamedCache;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Date;
@@ -13,14 +11,11 @@ import java.util.stream.IntStream;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * BTS, 07-Dec-2007
- */
 public class CacheStoreAsyncTest extends ClusterRunner {
 
     @Test
     public void demoOfCacheStoreRetryCapabilityWithAsyncCacheStore() throws InterruptedException {
-        NamedCache cache = getCache("config/async-cachestore.xml", "foo");
+        NamedCache cache = getCache("config/async-cachestore.xml");
 
         IntStream.range(0, 6).forEach(i->cache.put("key" + i, "value" + i));
 

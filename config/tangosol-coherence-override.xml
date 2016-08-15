@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config http://xmlns.oracle.com/coherence/coherence-operational-config/1.3/coherence-operational-config.xsd">
     <cluster-config>
         <multicast-listener>
-            <time-to-live system-property="coherence.ttl">1</time-to-live>
+            <time-to-live system-property="tangosol.coherence.ttl">1</time-to-live>
             <join-timeout-milliseconds>3000</join-timeout-milliseconds>
         </multicast-listener>
 

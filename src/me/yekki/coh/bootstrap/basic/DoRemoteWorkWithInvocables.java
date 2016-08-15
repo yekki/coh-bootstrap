@@ -6,6 +6,7 @@ import com.tangosol.net.CacheFactory;
 import com.tangosol.net.InvocationService;
 
 import org.hamcrest.Matcher;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Map;
@@ -18,9 +19,6 @@ public class DoRemoteWorkWithInvocables extends ClusterRunner {
 
     @Test
     public void shouldDoRemoteWork() throws InterruptedException {
-        //start two remote nodes
-        startCoherenceProcess(config);
-        startCoherenceProcess(config);
 
         //get a handle on the invocation service
         InvocationService invocationService = (InvocationService) CacheFactory.getCacheFactoryBuilder()
@@ -37,5 +35,13 @@ public class DoRemoteWorkWithInvocables extends ClusterRunner {
 
         //check that each of the three nodes returned their member id (one of them will be this process as we're running as a cluster member)
         assertThat(membersAndTheirIds.values(), (Matcher)org.hamcrest.CoreMatchers.hasItems(1,2,3));
+    }
+
+    @Before
+    public void setUp() throws Exception {
+        super.setUp();
+        //start two remote nodes
+        startCoherenceProcess(config);
+        startCoherenceProcess(config);
     }
 }

@@ -12,15 +12,12 @@ import java.io.IOException;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * BTS, 25-Jan-2008
- */
 public class ExtendProxies extends ClusterRunner {
 
     @Test
     public void useExtendProxy() throws IOException, InterruptedException {
         //start data enabled node
-        startCoherenceProcess("config/basic-cache.xml");
+        startCoherenceProcess();
 
         //start data disabled node as extend proxy
         startCoherenceProcess("config/basic-extend-enabled-cache-32001.xml", LOCAL_STORAGE_FALSE);
@@ -34,16 +31,5 @@ public class ExtendProxies extends ClusterRunner {
 
         //read
         assertEquals("Bar", cache.get("Foo"));
-    }
-
-
-    @Before
-    public void setUp() throws Exception {
-        super.setUp();
-    }
-
-    @After
-    public void tearDown() throws Exception {
-        super.tearDown();
     }
 }

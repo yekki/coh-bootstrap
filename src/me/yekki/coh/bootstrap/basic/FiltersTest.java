@@ -14,22 +14,19 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Set;
+import java.util.stream.IntStream;
 
 import static org.junit.Assert.assertEquals;
 
-public class Filters extends ClusterRunner {
+public class FiltersTest extends ClusterRunner {
 
 
     @Test
     public void shouldFilterResults() {
 
-        NamedCache cache = CacheFactory.getCacheFactoryBuilder()
-                .getConfigurableCacheFactory("config/basic-cache.xml", classLoader)
-                .ensureCache("stuff", classLoader);
+        NamedCache cache = getBasicCache();
 
-        for (int i = 1; i <= 100; i++) {
-            cache.put("Key" + i, "Value" + i);
-        }
+        IntStream.range(1, 101).forEach(i->cache.put("Key" + i, "Value" + i));
 
         Filter filter = new LikeFilter(new KeyExtractor("toString"), "%1%", '/', true);
 
@@ -40,13 +37,9 @@ public class Filters extends ClusterRunner {
     @Test
     public void shouldFilterResultsUsingPofExtractor() {
 
-        NamedCache cache = CacheFactory.getCacheFactoryBuilder()
-                .getConfigurableCacheFactory("config/basic-cache-with-pof.xml", classLoader)
-                .ensureCache("stuff", classLoader);
+        NamedCache cache = getCache("config/basic-cache-with-pof.xml");
 
-        for (int i = 1; i <= 100; i++) {
-            cache.put("Key" + i, new PofObject("Value" + i));
-        }
+        IntStream.range(1, 101).forEach(i->cache.put("Key" + i, new PofObject("Value" + i)));
 
         ValueExtractor pofExtractor = new PofExtractor(null, new SimplePofPath(1));
         Filter filter = new LikeFilter(pofExtractor, "%1%", '/', true);
@@ -58,15 +51,14 @@ public class Filters extends ClusterRunner {
     @Test
     public void shouldFilterResultsUsingTwoLevelPofExtractor() {
 
-        NamedCache cache = CacheFactory.getCacheFactoryBuilder()
-                .getConfigurableCacheFactory("config/basic-cache-with-pof.xml", classLoader)
-                .ensureCache("stuff", classLoader);
+        NamedCache cache = getCache("config/basic-cache-with-pof.xml");
 
-        for (int i = 1; i <= 100; i++) {
+        IntStream.range(1, 101).forEach(i->{
+
             PofObject child = new PofObject("Value" + i);
             PofObject parent = new PofObject(child);
             cache.put("Key" + i, parent);
-        }
+        });
 
         ValueExtractor pofExtractor = new PofExtractor(null, new SimplePofPath(new int[]{1, 1}));
         Filter filter = new LikeFilter(pofExtractor, "%1%", '/', true);
@@ -74,15 +66,4 @@ public class Filters extends ClusterRunner {
         Set set = cache.entrySet(filter);
         assertEquals(20, set.size());
     }
-
-    @Before
-    public void setUp() throws Exception {
-        super.setUp();
-    }
-
-    @After
-    public void tearDown() throws Exception {
-        super.tearDown();
-    }
-
 }

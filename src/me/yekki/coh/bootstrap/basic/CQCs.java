@@ -15,16 +15,12 @@ import java.io.IOException;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * BTS, 16-Jan-2008
- */
 public class CQCs extends ClusterRunner {
 
     @Test
     public void cqcShouldLoadSubsetToLocalProcess() throws IOException, InterruptedException {
-        startCoherenceProcess("config/basic-extend-enabled-cache-32001.xml");
 
-        NamedCache backingCache = getCache("config/extend-client-32001.xml", "foo");
+        NamedCache backingCache = getExtendCache();
 
         addValuesToCache(backingCache, 10);
 
@@ -45,10 +41,6 @@ public class CQCs extends ClusterRunner {
     @Before
     public void setUp() throws Exception {
         super.setUp();
-    }
-
-    @After
-    public void tearDown() throws Exception {
-        super.tearDown();
+        startCoherenceProcess("config/basic-extend-enabled-cache-32001.xml");
     }
 }

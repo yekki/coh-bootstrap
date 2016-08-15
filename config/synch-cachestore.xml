@@ -13,8 +13,6 @@
 
         <distributed-scheme>
             <scheme-name>basic-cache-store</scheme-name>
-            <service-name>replicated-partitioned</service-name>
-            <thread-count>50</thread-count>
             <backing-map-scheme>
                 <read-write-backing-map-scheme>
                     <internal-cache-scheme>
