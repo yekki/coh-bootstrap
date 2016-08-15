@@ -5,6 +5,12 @@
 
     <caching-scheme-mapping>
         <cache-mapping>
+            <cache-name>generic-type</cache-name>
+            <scheme-name>simple</scheme-name>
+            <key-type>String</key-type>
+            <value-type>String</value-type>
+        </cache-mapping>
+        <cache-mapping>
             <cache-name>*</cache-name>
             <scheme-name>simple</scheme-name>
         </cache-mapping>

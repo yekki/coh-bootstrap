@@ -5,6 +5,8 @@ import com.tangosol.util.InvocableMap;
 import java.util.Collection;
 import java.util.Set;
 
+import com.tangosol.util.aggregator.BigDecimalAverage;
+
 public class ParallelSumAggregator implements InvocableMap.ParallelAwareAggregator
 {
 
