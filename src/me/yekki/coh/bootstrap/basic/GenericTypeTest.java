@@ -5,8 +5,9 @@ import com.tangosol.net.NamedCache;
 import com.tangosol.net.cache.TypeAssertion;
 import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import org.junit.Test;
-import static org.junit.Assert.assertThat;
+
 import static org.hamcrest.CoreMatchers.instanceOf;
+import static org.junit.Assert.assertThat;
 
 public class GenericTypeTest extends ClusterRunner{
 

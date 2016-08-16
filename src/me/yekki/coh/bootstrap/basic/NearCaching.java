@@ -9,14 +9,13 @@ import org.junit.Test;
 
 import java.io.IOException;
 
-/**
- * BTS, 25-Jan-2008
- */
 public class NearCaching extends ClusterRunner {
 
     @Test
     public void shouldBeAbleToNearCacheDataForInProcessReRetrieval() throws IOException, InterruptedException {
+
         startCoherenceProcess("config/basic-extend-enabled-cache-32001.xml");
+        assertClusterStarted();
         Thread.sleep(5000);
 
         NamedCache cacheWithNoNearScheme = getExtendCache();
@@ -43,14 +42,5 @@ public class NearCaching extends ClusterRunner {
         start = System.currentTimeMillis();
         cache.get("x");
         System.out.println("took " + (System.currentTimeMillis() - start) + " ms");
-    }
-
-    @Before
-    public void setUp() throws Exception {
-        super.setUp();
-    }
-
-    @After public void tearDown() throws Exception {
-        super.tearDown();
     }
 }

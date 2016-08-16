@@ -1,16 +1,14 @@
 package me.yekki.coh.bootstrap.basic;
 
-import me.yekki.coh.bootstrap.structures.dataobjects.PofObject;
-import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import com.tangosol.io.pof.reflect.SimplePofPath;
-import com.tangosol.net.*;
+import com.tangosol.net.NamedCache;
 import com.tangosol.util.Filter;
 import com.tangosol.util.ValueExtractor;
 import com.tangosol.util.extractor.KeyExtractor;
 import com.tangosol.util.extractor.PofExtractor;
 import com.tangosol.util.filter.LikeFilter;
-import org.junit.After;
-import org.junit.Before;
+import me.yekki.coh.bootstrap.structures.dataobjects.PofObject;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import org.junit.Test;
 
 import java.util.Set;
