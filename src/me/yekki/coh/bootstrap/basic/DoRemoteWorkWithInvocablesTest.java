@@ -14,16 +14,15 @@ import java.util.Map;
 import static org.junit.Assert.assertThat;
 import static org.junit.matchers.JUnitMatchers.hasItems;
 
-public class DoRemoteWorkWithInvocables extends ClusterRunner {
+public class DoRemoteWorkWithInvocablesTest extends ClusterRunner {
+
     public static final String config = "config/basic-invocation-service-1.xml";
 
     @Test
     public void shouldDoRemoteWork() throws InterruptedException {
 
         //get a handle on the invocation service
-        InvocationService invocationService = (InvocationService) CacheFactory.getCacheFactoryBuilder()
-                .getConfigurableCacheFactory(config, classLoader)
-                .ensureService("MyInvocationService1");
+        InvocationService invocationService = getService();
 
         assertClusterStarted();
 

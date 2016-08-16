@@ -37,8 +37,7 @@ public class ClusterCommon {
             case 1221:
                 props.put("coherence.clusteraddress", "239.255.12.30");
                 props.put("coherence.clusterport", "1234");
-                props.put("coherence.cluster", "coherence.bootstrap");
-                props.put("coherence.cacheconfig", "config/basic-cache.xml");
+                props.put("coherence.cluster", "yekki_cluster");
                 props.put("coherence.log.level", "9");
                 props.put("coherence.ttl", "0");
                 props.put("coherence.management", "all");
@@ -47,8 +46,7 @@ public class ClusterCommon {
             case 1213:
                 props.put("tangosol.coherence.clusteraddress", "239.255.12.30");
                 props.put("tangosol.coherence.clusterport", "1234");
-                props.put("tangosol.coherence.cluster", "coherence.bootstrap");
-                props.put("tangosol.coherence.cacheconfig", "config/basic-cache.xml");
+                props.put("tangosol.coherence.cluster", "yekki_cluster");
                 props.put("tangosol.coherence.log.level", "9");
                 props.put("tangosol.coherence.ttl", "0");
                 props.put("tangosol.coherence.management", "all");

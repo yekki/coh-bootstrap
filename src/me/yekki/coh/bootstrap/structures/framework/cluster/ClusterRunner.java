@@ -2,6 +2,7 @@ package me.yekki.coh.bootstrap.structures.framework.cluster;
 
 import com.tangosol.net.CacheFactory;
 import com.tangosol.net.CacheService;
+import com.tangosol.net.InvocationService;
 import com.tangosol.net.NamedCache;
 import org.junit.After;
 import org.junit.Before;
@@ -76,6 +77,16 @@ public abstract class ClusterRunner extends ClusterCommon {
     protected NamedCache getCache(String configLocation) {
 
         return getCache(configLocation, "foo");
+    }
+
+    protected InvocationService getService(String configLocation, String serviceName) {
+        return (InvocationService) CacheFactory.getCacheFactoryBuilder()
+                .getConfigurableCacheFactory(configLocation, classLoader)
+                .ensureService(serviceName);
+    }
+
+    protected InvocationService getService() {
+        return getService("config/basic-invocation-service-1.xml", "MyInvocationService1");
     }
 
     protected NamedCache getBasicCache() {
