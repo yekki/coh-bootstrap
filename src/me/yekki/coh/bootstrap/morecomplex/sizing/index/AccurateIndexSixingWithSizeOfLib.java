@@ -1,12 +1,12 @@
 package me.yekki.coh.bootstrap.morecomplex.sizing.index;
 
+import com.tangosol.net.CacheFactory;
+import com.tangosol.net.NamedCache;
+import com.tangosol.util.extractor.ReflectionExtractor;
 import me.yekki.coh.bootstrap.structures.dataobjects.PoJo;
 import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import me.yekki.coh.bootstrap.structures.tools.index.IndexSizeJMXBean;
 import me.yekki.coh.bootstrap.structures.tools.index.IndexSizer;
-import com.tangosol.net.CacheFactory;
-import com.tangosol.net.NamedCache;
-import com.tangosol.util.extractor.ReflectionExtractor;
 import org.junit.Test;
 
 import javax.management.MBeanServerConnection;
@@ -226,7 +226,7 @@ public class AccurateIndexSixingWithSizeOfLib extends ClusterRunner {
         startCoherenceProcess(dataNodeConfig);
         startCoherenceProcess(dataNodeConfig);
         startDataDisabledExtendProxy();
-        NamedCache cache = getExtendCache("cache1");
+        NamedCache cache = getCache("config/extend-client-32001.xml", "cache1");
         startLocalJMXServer(40001);
         assertClusterStarted();
 
@@ -237,7 +237,7 @@ public class AccurateIndexSixingWithSizeOfLib extends ClusterRunner {
         cache.addIndex(new ReflectionExtractor("getData"), false, null);
         cache.addIndex(new ReflectionExtractor("toString"), false, null);
 
-        cache = getExtendCache("cache2");
+        cache = getCache("config/extend-client-32001.xml", "cache2");
 
         //add some data
         addValuesToCache(cache, 100, new PoJo("foo"));

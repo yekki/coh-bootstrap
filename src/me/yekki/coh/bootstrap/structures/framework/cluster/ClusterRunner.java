@@ -29,6 +29,22 @@ public abstract class ClusterRunner extends ClusterCommon {
     private HashSet<NamedCache> caches = new HashSet<>();
     private boolean skipWitForProcessTearDown = false;
 
+    public static boolean deleteDirectory(File directory) {
+        if (directory.exists()) {
+            File[] files = directory.listFiles();
+            if (null != files) {
+                for (File file : files) {
+                    if (file.isDirectory()) {
+                        deleteDirectory(file);
+                    } else {
+                        file.delete();
+                    }
+                }
+            }
+        }
+        return (directory.delete());
+    }
+
     @Before
     public void setUp() throws Exception {
         executor.countOfStartedNodes = 0;
@@ -49,7 +65,6 @@ public abstract class ClusterRunner extends ClusterCommon {
         if (!skipWitForProcessTearDown)
             waitForAllKilledMembersToTimeOut();
     }
-
 
     protected void releaseLocalCacheResources() {
 
@@ -91,20 +106,25 @@ public abstract class ClusterRunner extends ClusterCommon {
 
     protected NamedCache getBasicCache() {
 
-        return getCache("config/basic-cache.xml", "foo");
+        return getCache("config/basic-cache.xml");
     }
 
-    public NamedCache getBasicCache(String cacheName) {
-
-        return getCache("config/basic-cache.xml", cacheName);
+    protected NamedCache getBasicPofCache() {
+        return getCache("config/basic-cache-with-pof.xml");
     }
 
     protected NamedCache getExtendCache() {
-        return getCache("config/extend-client-32001.xml", "foo");
+
+        return getCache("config/extend-client-32001.xml");
     }
 
-    protected NamedCache getExtendCache(String cacheName) {
-        return getCache("config/extend-client-32001.xml", cacheName);
+    protected NamedCache getExtendPofCache() {
+        return getCache("config/extend-client-32001-pof.xml");
+    }
+
+    protected NamedCache getNearCache() {
+
+        return getCache("config/extend-client-with-near-cache.xml");
     }
 
     protected void startOutOfProcessWithJMX(String config) {
@@ -142,18 +162,10 @@ public abstract class ClusterRunner extends ClusterCommon {
         executor.startOutOfProcess("config/basic-extend-enabled-cache-32001.xml", LOCAL_STORAGE_FALSE);
     }
 
-
     private void addToShutdownList(NamedCache cache) {
         services.add(cache.getCacheService());
         caches.add(cache);
     }
-
-    protected NamedCache getRemotePofCache(String name) {
-        return CacheFactory.getCacheFactoryBuilder()
-                .getConfigurableCacheFactory("config/extend-client-32001-pof.xml", classLoader)
-                .ensureCache(name, classLoader);
-    }
-
 
     protected void assertWithinTolerance(long expected, long actual, double toleranceFraction) {
         String message = String.format("Expected:%,d, Actual: %,d, %s \n", expected, actual, toleranceFraction);
@@ -181,22 +193,6 @@ public abstract class ClusterRunner extends ClusterCommon {
                 log.delete();
             }
         }
-    }
-
-    public static boolean deleteDirectory(File directory) {
-        if (directory.exists()) {
-            File[] files = directory.listFiles();
-            if (null != files) {
-                for (File file : files) {
-                    if (file.isDirectory()) {
-                        deleteDirectory(file);
-                    } else {
-                        file.delete();
-                    }
-                }
-            }
-        }
-        return (directory.delete());
     }
 
     protected void clearDataDirectories() {

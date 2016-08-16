@@ -6,14 +6,15 @@
     <caching-scheme-mapping>
         <cache-mapping>
             <cache-name>*</cache-name>
-            <scheme-name>distributed</scheme-name>
+            <scheme-name>foo</scheme-name>
         </cache-mapping>
     </caching-scheme-mapping>
 
     <caching-schemes>
         <!-- distributed cache scheme -->
         <distributed-scheme>
-            <scheme-name>distributed</scheme-name>
+            <scheme-name>foo</scheme-name>
+            <service-name>unlimited-partitioned</service-name>
             <backing-map-scheme>
                 <local-scheme/>
             </backing-map-scheme>

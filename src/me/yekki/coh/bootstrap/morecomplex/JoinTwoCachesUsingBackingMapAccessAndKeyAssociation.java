@@ -1,6 +1,5 @@
 package me.yekki.coh.bootstrap.morecomplex;
 
-import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import com.tangosol.net.BackingMapContext;
 import com.tangosol.net.NamedCache;
 import com.tangosol.net.cache.KeyAssociation;
@@ -10,6 +9,7 @@ import com.tangosol.util.ExternalizableHelper;
 import com.tangosol.util.InvocableMap;
 import com.tangosol.util.filter.EqualsFilter;
 import com.tangosol.util.filter.NotFilter;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -24,13 +24,13 @@ import static org.junit.Assert.assertThat;
  * service, an Aggregator and Key Association (affinity) to keep them together.
  *
  * This is just an example to be extended. It ignores key elements that you
- * should include in production implementations such as the use of POF for
+ * should include in production implementations such as the use of POFTest for
  * efficient extraction and the use of indexes for the the join itself rather
  * than iterating over entries in the surrogate cache.
  */
 public class JoinTwoCachesUsingBackingMapAccessAndKeyAssociation extends ClusterRunner implements Serializable {
-    private static NotFilter grabEverything = new NotFilter(new EqualsFilter("toString", "it won't be this"));
     private static final Random random = new Random();
+    private static NotFilter grabEverything = new NotFilter(new EqualsFilter("toString", "it won't be this"));
 
     @Test
     public void shouldJoinDataInDifferentCaches() throws IOException, InterruptedException {
@@ -89,7 +89,7 @@ public class JoinTwoCachesUsingBackingMapAccessAndKeyAssociation extends Cluster
                 Collection<Binary> valBackMap = context.getBackingMap().values();
                 matchingValuations = new ArrayList<Valuation>();
                 for (Binary val : valBackMap) {
-                    Valuation valuation = (Valuation) ExternalizableHelper.fromBinary(val, entry.getSerializer());
+                    Valuation valuation = ExternalizableHelper.fromBinary(val, entry.getSerializer());
                     if (valuation.getTradeId() == tradeId) {
                         matchingValuations.add(valuation);
                     }

@@ -15,14 +15,12 @@
             <service-name>extend-service2</service-name>
             <initiator-config>
                 <tcp-initiator>
-
                     <remote-addresses>
                         <socket-address>
                             <address>localhost</address>
                             <port system-property="com.benstopford.extend.port2">32002</port>
                         </socket-address>
                     </remote-addresses>
-
                 </tcp-initiator>
                 <connect-timeout>20s</connect-timeout>
             </initiator-config>

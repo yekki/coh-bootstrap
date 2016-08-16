@@ -15,6 +15,7 @@ public class CacheStoreAsyncTest extends ClusterRunner {
 
     @Test
     public void demoOfCacheStoreRetryCapabilityWithAsyncCacheStore() throws InterruptedException {
+
         NamedCache cache = getCache("config/async-cachestore.xml");
 
         IntStream.range(0, 6).forEach(i->cache.put("key" + i, "value" + i));

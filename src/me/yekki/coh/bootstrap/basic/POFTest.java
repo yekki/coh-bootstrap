@@ -1,8 +1,8 @@
 package me.yekki.coh.bootstrap.basic;
 
-import me.yekki.coh.bootstrap.structures.dataobjects.LoggingPofObject;
-import com.tangosol.net.CacheFactory;
 import com.tangosol.net.NamedCache;
+import me.yekki.coh.bootstrap.structures.dataobjects.LoggingPofObject;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -10,18 +10,13 @@ import java.io.IOException;
 import static org.junit.Assert.assertEquals;
 
 
-public class POF {
+public class POFTest extends ClusterRunner {
     ClassLoader classLoader = getClass().getClassLoader();
 
-    /**
-     * see config/my-pof-config
-     */
     @Test
     public void putAndGetPofEncodedObject() throws IOException {
 
-        NamedCache cache = CacheFactory.getCacheFactoryBuilder()
-                .getConfigurableCacheFactory("config/basic-cache-with-pof.xml", classLoader)
-                .ensureCache("stuff", classLoader);
+        NamedCache cache = getBasicPofCache();
 
         cache.put("key", new LoggingPofObject("some data"));
 
@@ -29,5 +24,4 @@ public class POF {
 
         assertEquals("some data", object.getData());
     }
-
 }

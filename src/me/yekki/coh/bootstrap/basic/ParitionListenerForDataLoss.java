@@ -1,9 +1,8 @@
 package me.yekki.coh.bootstrap.basic;
 
-import me.yekki.coh.bootstrap.structures.tools.MyPartitionListener;
-import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import com.tangosol.net.NamedCache;
-import org.junit.After;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
+import me.yekki.coh.bootstrap.structures.tools.MyPartitionListener;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,9 +12,6 @@ import java.io.IOException;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-/**
- * BTS, 12-May-2008
- */
 public class ParitionListenerForDataLoss extends ClusterRunner {
 
     /**
@@ -58,10 +54,5 @@ public class ParitionListenerForDataLoss extends ClusterRunner {
             flagFile.delete();
             System.out.println("deleted file");
         }
-    }
-
-    @After
-    public void tearDown() throws Exception {
-        super.tearDown();
     }
 }

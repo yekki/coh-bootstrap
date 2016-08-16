@@ -5,13 +5,13 @@
     <caching-scheme-mapping>
         <cache-mapping>
             <cache-name>*</cache-name>
-            <scheme-name>remote</scheme-name>
+            <scheme-name>connect</scheme-name>
         </cache-mapping>
     </caching-scheme-mapping>
 
     <caching-schemes>
         <remote-cache-scheme>
-            <scheme-name>remote</scheme-name>
+            <scheme-name>connect</scheme-name>
             <service-name>extend-service</service-name>
             <initiator-config>
                 <tcp-initiator>

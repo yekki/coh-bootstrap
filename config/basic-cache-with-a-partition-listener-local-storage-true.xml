@@ -5,12 +5,12 @@
     <caching-scheme-mapping>
         <cache-mapping>
             <cache-name>*</cache-name>
-            <scheme-name>foo</scheme-name>
+            <scheme-name>distributed</scheme-name>
         </cache-mapping>
     </caching-scheme-mapping>
     <caching-schemes>
         <distributed-scheme>
-            <scheme-name>foo</scheme-name>
+            <scheme-name>distributed</scheme-name>
             <service-name>replicated-partitioned-with-listener</service-name>
             <backup-count>0</backup-count>
             <partition-listener>

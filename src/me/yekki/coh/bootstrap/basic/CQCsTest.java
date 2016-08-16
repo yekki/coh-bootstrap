@@ -1,13 +1,12 @@
 package me.yekki.coh.bootstrap.basic;
 
-import me.yekki.coh.bootstrap.structures.dataobjects.SizableObjectFactory;
-import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import com.tangosol.net.NamedCache;
 import com.tangosol.net.cache.ContinuousQueryCache;
 import com.tangosol.util.Filter;
 import com.tangosol.util.extractor.KeyExtractor;
 import com.tangosol.util.filter.LikeFilter;
-import org.junit.After;
+import me.yekki.coh.bootstrap.structures.dataobjects.SizableObjectFactory;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import org.junit.Before;
 import org.junit.Test;
 

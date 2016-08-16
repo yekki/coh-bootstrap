@@ -12,13 +12,13 @@ import java.util.Set;
 
 /**
  * Counts the binary size of data in a Coherence cluster
- * (assumes that you are using POF so that units are in Binary)
+ * (assumes that you are using POFTest so that units are in Binary)
  *
  * (Designed as a stand-alone class, so easy to copy and paste as a util)
  */
 public class BinaryCacheSizeCounter {
-    private static final String jmxHost = "localhost";
     public static final String search = "Coherence:type=Cache,service=*,name=*,nodeId=*,tier=back";
+    private static final String jmxHost = "localhost";
 
     public static void main(String[] args) throws Exception {
         new BinaryCacheSizeCounter().sumClusterStorageSize(40001);

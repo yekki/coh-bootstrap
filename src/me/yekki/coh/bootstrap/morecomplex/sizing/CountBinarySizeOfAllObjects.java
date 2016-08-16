@@ -1,11 +1,11 @@
 package me.yekki.coh.bootstrap.morecomplex.sizing;
 
+import com.tangosol.net.CacheFactory;
+import com.tangosol.net.NamedCache;
 import me.yekki.coh.bootstrap.structures.dataobjects.PoJo;
 import me.yekki.coh.bootstrap.structures.dataobjects.PofObject;
 import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import me.yekki.coh.bootstrap.structures.tools.jmx.BinaryCacheSizeCounter;
-import com.tangosol.net.CacheFactory;
-import com.tangosol.net.NamedCache;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -48,8 +48,8 @@ public class CountBinarySizeOfAllObjects extends ClusterRunner {
         startDataDisabledExtendProxy();
 
         //with two caches
-        NamedCache foo = getExtendCache("foo");
-        NamedCache bar = getExtendCache("bar");
+        NamedCache foo = getCache("config/extend-client-32001.xml", "foo");
+        NamedCache bar = getCache("config/extend-client-32001.xml", "bar");
 
         //When we add 20MB of data
         addValuesToCache(foo, 10 * 1024, new PoJo(new byte[1024])); //10MB

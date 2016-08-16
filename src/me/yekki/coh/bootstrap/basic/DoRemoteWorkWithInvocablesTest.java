@@ -1,10 +1,8 @@
 package me.yekki.coh.bootstrap.basic;
 
+import com.tangosol.net.InvocationService;
 import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import me.yekki.coh.bootstrap.structures.tools.SampleInvocable;
-import com.tangosol.net.CacheFactory;
-import com.tangosol.net.InvocationService;
-
 import org.hamcrest.Matcher;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,7 +10,6 @@ import org.junit.Test;
 import java.util.Map;
 
 import static org.junit.Assert.assertThat;
-import static org.junit.matchers.JUnitMatchers.hasItems;
 
 public class DoRemoteWorkWithInvocablesTest extends ClusterRunner {
 
@@ -42,5 +39,6 @@ public class DoRemoteWorkWithInvocablesTest extends ClusterRunner {
         //start two remote nodes
         startCoherenceProcess(config);
         startCoherenceProcess(config);
+        assertClusterStarted();
     }
 }

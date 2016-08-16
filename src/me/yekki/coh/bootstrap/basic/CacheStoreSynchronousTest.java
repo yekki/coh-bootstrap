@@ -1,10 +1,8 @@
 package me.yekki.coh.bootstrap.basic;
 
-import me.yekki.coh.bootstrap.structures.tools.TestCacheStore;
-import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import com.tangosol.net.NamedCache;
-import org.junit.After;
-import org.junit.Before;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
+import me.yekki.coh.bootstrap.structures.tools.TestCacheStore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

@@ -6,19 +6,20 @@
     <caching-scheme-mapping>
         <cache-mapping>
             <cache-name>generic-type</cache-name>
-            <scheme-name>distributed</scheme-name>
+            <scheme-name>simple</scheme-name>
             <key-type>String</key-type>
             <value-type>String</value-type>
         </cache-mapping>
         <cache-mapping>
             <cache-name>*</cache-name>
-            <scheme-name>distributed</scheme-name>
+            <scheme-name>simple</scheme-name>
         </cache-mapping>
     </caching-scheme-mapping>
 
     <caching-schemes>
         <distributed-scheme>
-            <scheme-name>distributed</scheme-name>
+            <scheme-name>simple</scheme-name>
+            <service-name>unlimited-partitioned</service-name>
             <backing-map-scheme>
                 <local-scheme/>
             </backing-map-scheme>

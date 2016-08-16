@@ -1,12 +1,12 @@
 package me.yekki.coh.bootstrap.morecomplex.sizing.index.coherencembean;
 
-import me.yekki.coh.bootstrap.structures.tools.jmx.IndexInfoCounter;
-import me.yekki.coh.bootstrap.structures.dataobjects.PoJo;
-import me.yekki.coh.bootstrap.structures.dataobjects.PofObject;
-import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import com.tangosol.net.NamedCache;
 import com.tangosol.util.extractor.PofExtractor;
 import com.tangosol.util.extractor.ReflectionExtractor;
+import me.yekki.coh.bootstrap.structures.dataobjects.PoJo;
+import me.yekki.coh.bootstrap.structures.dataobjects.PofObject;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
+import me.yekki.coh.bootstrap.structures.tools.jmx.IndexInfoCounter;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -30,8 +30,8 @@ public class SumCoherenceIndexMbean extends ClusterRunner {
         startDataDisabledExtendProxy();
 
         //two caches
-        NamedCache foo = getExtendCache("foo");
-        NamedCache bar = getExtendCache("bar");
+        NamedCache foo = getCache("config/extend-client-32001.xml", "foo");
+        NamedCache bar = getCache("config/extend-client-32001.xml", "bar");
 
         //add some data
         addValuesToCache(foo, 10 * 1024, new PoJo(data1K)); //10MB
@@ -56,8 +56,8 @@ public class SumCoherenceIndexMbean extends ClusterRunner {
         startCoherenceProcess("config/basic-extend-enabled-cache-32001-pof.xml");
 
         //two caches
-        NamedCache foo = getRemotePofCache("foo");
-        NamedCache bar = getRemotePofCache("bar");
+        NamedCache foo = getCache("config/extend-client-32001-pof.xml", "foo");
+        NamedCache bar = getCache("config/extend-client-32001-pof.xml", "bar");
 
         //add some data
         addValuesToCache(foo, 10 * 1024, new PofObject(data1K));//10MB
