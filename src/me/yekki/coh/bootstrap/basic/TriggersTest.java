@@ -29,6 +29,7 @@ public class TriggersTest extends ClusterRunner {
         super.setUp();
         startCoherenceProcess("config/basic-invocation-service-pof-1.xml");
         startCoherenceProcess("config/basic-invocation-service-pof-1.xml");
+        assertClusterStarted();
         System.out.println(CacheFactory.ensureCluster().getMemberSet());
     }
 }

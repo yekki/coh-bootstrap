@@ -11,7 +11,6 @@ import static org.junit.Assert.assertEquals;
 
 
 public class POFTest extends ClusterRunner {
-    ClassLoader classLoader = getClass().getClassLoader();
 
     @Test
     public void putAndGetPofEncodedObject() throws IOException {

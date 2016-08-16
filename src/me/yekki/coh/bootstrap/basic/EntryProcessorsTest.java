@@ -21,10 +21,10 @@ public final class EntryProcessorsTest extends ClusterRunner {
         assertEquals("The value has been set to Value2", returnVal);
     }
 
-    static final class ValueChangingEntryProcessor extends AbstractProcessor {
+    private static final class ValueChangingEntryProcessor extends AbstractProcessor {
         private final String newValue;
 
-        public ValueChangingEntryProcessor(String newValue) {
+        ValueChangingEntryProcessor(String newValue) {
             this.newValue = newValue;
         }
 

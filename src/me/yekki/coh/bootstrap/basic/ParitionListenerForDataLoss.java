@@ -22,12 +22,14 @@ public class ParitionListenerForDataLoss extends ClusterRunner {
      */
     @Test
     public void dataLossShouldTriggerPartitionListenerActivation() throws IOException, InterruptedException {
+
         String dataEnabledConfig = "config/basic-cache-with-a-partition-listener-local-storage-true.xml";
 
         //create 3 external data enabled processes
         Process nodeToBeKilled = startCoherenceProcess(dataEnabledConfig);
         Process nodeToBeKilled2 = startCoherenceProcess(dataEnabledConfig);
         startCoherenceProcess(dataEnabledConfig);
+        assertClusterStarted();
 
         //Ensure this VM is data disabled for this cache service
         NamedCache cache = getCache("config/basic-cache-with-local-storage-false.xml","foo");

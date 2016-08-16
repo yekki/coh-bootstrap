@@ -24,7 +24,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 
-public class PofEfficiency {
+public class PofEfficiencyTest {
     public static int objectCount;
     static byte[] data = new byte[50];
     private SimplePofContext context = null;
