@@ -53,6 +53,9 @@ public abstract class ClusterRunner extends ClusterCommon {
         ProcessLogger.switchStdErrToFile();
         new PersistentPortTracker().incrementExtendPort();
         System.getProperties().putAll(getProperties());
+
+        // TODO: for test
+        assertClusterStarted();
     }
 
     @After

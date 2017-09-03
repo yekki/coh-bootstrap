@@ -5,14 +5,12 @@ import com.tangosol.util.InvocableMap;
 import java.util.Collection;
 import java.util.Set;
 
-import com.tangosol.util.aggregator.BigDecimalAverage;
-
 public class ParallelSumAggregator implements InvocableMap.ParallelAwareAggregator
 {
 
-	private static final long serialVersionUID = 1L;
-	
-	private InvocableMap.EntryAggregator delegate;
+    private static final long serialVersionUID = 1L;
+
+    private InvocableMap.EntryAggregator delegate;
 
     public ParallelSumAggregator(InvocableMap.EntryAggregator delegate) {
         this.delegate = delegate;
@@ -23,9 +21,9 @@ public class ParallelSumAggregator implements InvocableMap.ParallelAwareAggregat
         return this;
     }
 
-    
-	@Override
-	@SuppressWarnings("rawtypes")
+
+    @Override
+    @SuppressWarnings("rawtypes")
     public Object aggregateResults(Collection collection) {
         int result = 0;
         for(Object o: collection){
@@ -34,7 +32,7 @@ public class ParallelSumAggregator implements InvocableMap.ParallelAwareAggregat
         return result;
     }
 
-	@SuppressWarnings("rawtypes")
+    @SuppressWarnings("rawtypes")
     public Object aggregate(Set set) {
         return  delegate.aggregate(set);
     }

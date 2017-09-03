@@ -11,6 +11,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.util.stream.IntStream;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,7 +22,7 @@ public class CQCsTest extends ClusterRunner {
 
         NamedCache backingCache = getExtendCache();
 
-        addValuesToCache(backingCache, 10);
+        IntStream.range(1, 11).forEach(i -> backingCache.put("Key" + i, new SizableObjectFactory().buildObject(1000)));
 
         Filter filter = new LikeFilter(new KeyExtractor("toString"), "%1%", '/', true);
 
@@ -31,16 +32,9 @@ public class CQCsTest extends ClusterRunner {
         assertEquals(10, backingCache.size());
     }
 
-    private void addValuesToCache(NamedCache cache, int numberToAdd) {
-        for (int i = 1; i <= numberToAdd; i++) {
-            cache.put("Key" + i, new SizableObjectFactory().buildObject(1000));
-        }
-    }
-
     @Before
     public void setUp() throws Exception {
         super.setUp();
         startCoherenceProcess("config/basic-extend-enabled-cache-32001.xml");
-        assertClusterStarted();
     }
 }

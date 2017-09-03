@@ -18,7 +18,7 @@ public class CacheStoreAsyncTest extends ClusterRunner {
 
         NamedCache cache = getCache("config/async-cachestore.xml");
 
-        IntStream.range(0, 6).forEach(i->cache.put("key" + i, "value" + i));
+        IntStream.range(0, 6).forEach(i->cache.put(Integer.toString(i), i));
 
         //CacheStore should not have fired yet as async (and has artificial delay - see FakeDatabaseCacheStore.java)
         assertThat(FakeDatabaseCacheStore.keysCalled.size(),is(0));
