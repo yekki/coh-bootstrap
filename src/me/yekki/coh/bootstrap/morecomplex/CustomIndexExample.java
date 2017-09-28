@@ -14,6 +14,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
+// TODO: Should be fixed!
 /**
  * Example of creating a custom index This example creates a low memory index
  * which only includes the backward map, discarding the forward lookup.

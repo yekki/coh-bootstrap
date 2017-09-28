@@ -21,7 +21,7 @@ public class AggregatorsTest extends ClusterRunner {
         NamedCache<String, Integer> cache = getBasicCache();
 
         //add simple data
-        IntStream.range(0, 10000).forEach(i -> cache.put(Integer.toString(i),10));
+        IntStream.range(0, 1000).forEach(i -> cache.put(Integer.toString(i),10));
 
         //create a simple (non-parallel) aggregator
         PerformanceTimer.start();
@@ -38,8 +38,8 @@ public class AggregatorsTest extends ClusterRunner {
         //Integer value2 = cache.stream().parallel().mapToInt(entry->entry.getValue()).sum();
         PerformanceTimer.Took parallel = PerformanceTimer.end().printMs("ParallelAggregator took %");
 
-        assertEquals(value.intValue(), 100000);
-        assertEquals(value2.intValue(), 100000);
+        assertEquals(value.intValue(), 10000);
+        assertEquals(value2.intValue(), 10000);
 
         // the stream version is poor performance compared with the old one(ParallelSumAggregator). So, you should add more workload if test failed.
         assertTrue("parallel aggregator should be faster", parallel.ns() < regular.ns());

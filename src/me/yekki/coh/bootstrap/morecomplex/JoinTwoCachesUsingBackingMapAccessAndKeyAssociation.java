@@ -36,8 +36,8 @@ public class JoinTwoCachesUsingBackingMapAccessAndKeyAssociation extends Cluster
     public void shouldJoinDataInDifferentCaches() throws IOException, InterruptedException {
         startCoherenceProcess();
         startCoherenceProcess();
-        NamedCache trades = getCache("trade");
-        NamedCache valuations = getCache("valuations");
+        NamedCache trades = getBasicCache("trade");
+        NamedCache valuations = getBasicCache("valuations");
         assertClusterStarted();
 
         //Add 10 trades with two corresponding valuations for each of them

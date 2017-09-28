@@ -71,7 +71,13 @@ public abstract class ClusterRunner extends ClusterCommon {
 
     protected void releaseLocalCacheResources() {
 
-        caches.forEach(c->c.release());
+        caches.forEach(c->{
+            try {
+                c.release();
+            } catch (IllegalStateException e) {
+                System.out.println(c.getCacheName() + "has been released");
+            }
+        });
 
         caches.clear();
     }
@@ -110,6 +116,11 @@ public abstract class ClusterRunner extends ClusterCommon {
     protected NamedCache getBasicCache() {
 
         return getCache("config/basic-cache.xml");
+    }
+
+    protected NamedCache getBasicCache(String name) {
+
+        return getCache("config/basic-cache.xml", name);
     }
 
     protected NamedCache getBasicPofCache() {

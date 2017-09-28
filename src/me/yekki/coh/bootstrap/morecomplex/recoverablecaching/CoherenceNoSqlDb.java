@@ -67,7 +67,7 @@ public class CoherenceNoSqlDb extends ClusterRunner {
         PerformanceTimer.end().printAverageOfCheckpoints(unit);
     }
 
-//    @Test
+    @Test
     public void timeBatchWriteSmallObject() throws Exception {
         cache = startCluster(config);
 
@@ -88,7 +88,7 @@ public class CoherenceNoSqlDb extends ClusterRunner {
         PerformanceTimer.end().printAverageOfCheckpoints(unit);
     }
 
-//    @Test
+    @Test
     public void timeBatchWriteLargeObject() throws Exception {
         cache = startCluster(config);
         System.out.println(config);

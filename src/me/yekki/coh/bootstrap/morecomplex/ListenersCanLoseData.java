@@ -95,6 +95,7 @@ public final class ListenersCanLoseData extends ClusterRunner {
         extendProxy1 = startCoherenceProcess("config/basic-extend-enabled-cache-32001.xml", "-Dtangosol.coherence.distributed.localstorage=false ");
         Thread.sleep(1000);
 
+        cacheViaConnection1 = getCacheConnection1();
         //add value via restarted extend proxy
         cacheViaConnection1.put("Foo", "4");
         Thread.sleep(1000);

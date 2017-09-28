@@ -23,7 +23,7 @@ public class HopBetweenCaches extends ClusterRunner implements Serializable {
         //*****NB - note that it may work using a single cache service with multiple threads but there is the potential for deadlock*****
 
         NamedCache cache1 = getCache("config/basic-cache-on-different-cache-service.xml", "cache1");
-        NamedCache cache2 = getCache("cache2");
+        NamedCache cache2 = getBasicCache("cache2");
 
         cache1.invoke("Key", new PutInAnotherCacheEP());
 
@@ -33,7 +33,7 @@ public class HopBetweenCaches extends ClusterRunner implements Serializable {
     private class PutInAnotherCacheEP extends AbstractProcessor {
         public Object process(InvocableMap.Entry entry) {
 
-            NamedCache cache2 = getCache("cache2");
+            NamedCache cache2 = getBasicCache("cache2");
             cache2.put("Key2", "Entry Processors rock!!");
 
             return null;
