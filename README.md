@@ -9,12 +9,12 @@ The project is inspired by and based on benstopford's [coherence-bootstrap](http
 Topics covered:
 
 **Basics:**
-* [Agregators](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/Aggregators.java)
+* [Aggregators](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/Aggregators.java)
 * [Cache Stores (Async/Sync)](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/CacheStoreAsync.java)
 * [CQCs](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/CQCs.java)
 * [Entry Processors](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/EntryProcessors.java)
 * [Extend Proxies](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/ExtendProxies.java)
-* [Filters] (https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/Filters.java)
+* [Filters](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/Filters.java)
 * [Index Performance](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/IndexesAreFast.java)
 * [MapListeners](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/MapListeners.java)
 * [Near Caching](https://github.com/yekki/coh-bootstrap/blob/master/src/me/yekki/coh/bootstrap/basic/NearCaching.java)

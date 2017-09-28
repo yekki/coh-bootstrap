@@ -1,13 +1,11 @@
 package me.yekki.coh.bootstrap.morecomplex;
 
-import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
-import me.yekki.coh.bootstrap.structures.tools.PutAllWithErrorReporting;
 import com.tangosol.net.CacheFactory;
 import com.tangosol.net.DistributedCacheService;
 import com.tangosol.net.InvocationService;
 import com.tangosol.net.NamedCache;
-import org.junit.After;
-import org.junit.Before;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
+import me.yekki.coh.bootstrap.structures.tools.PutAllWithErrorReporting;
 import org.junit.Test;
 
 import java.util.Map;
@@ -89,14 +87,5 @@ public class PutAllThatReportsIndividualExceptions extends ClusterRunner {
         assertTrue(keyToThrowableMap.get(2).getMessage().contains("Forced Error"));
         assertTrue(keyToThrowableMap.get(3).getMessage().contains("Forced Error"));
         assertTrue(keyToThrowableMap.get(4).getMessage().contains("Forced Error"));
-    }
-
-
-    @Before public void setUp() throws Exception {
-        super.setUp();
-    }
-
-    @After public void tearDown() throws Exception {
-        super.tearDown();
     }
 }

@@ -1,15 +1,13 @@
 package me.yekki.coh.bootstrap.morecomplex;
 
-import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import com.tangosol.net.NamedCache;
-import org.junit.After;
-import org.junit.Before;
+import me.yekki.coh.bootstrap.structures.framework.cluster.ClusterRunner;
 import org.junit.Test;
 
 import java.io.IOException;
 
-import static org.junit.Assert.fail;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.fail;
 
 public final class UsingAnOverflowCacheToExpireEntriesToDiskExample extends ClusterRunner {
     private static final String OVERFLOW_CONFIG_XML = "config/overflow-config.xml";
@@ -45,16 +43,4 @@ public final class UsingAnOverflowCacheToExpireEntriesToDiskExample extends Clus
     private boolean haveBeenRunningForLessThan5Secs() {
         return System.currentTimeMillis() - start < 5 * 1000;
     }
-
-    @Before
-    public void setUp() throws Exception {
-        super.setUp();
-    }
-
-    @After
-    public void tearDown() throws Exception {
-        super.tearDown();
-    }
-
-
 }
